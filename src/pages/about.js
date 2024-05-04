@@ -9,7 +9,7 @@ const AboutPage = () => {
         <h1>About Ang Chen!</h1>
         <p>I'm a physics and computer enthusiast who loves to learn new things and create new things.
             <br/>
-            Why not aim high and work hard?
+            Why not aim high and work hard? 
             <hr/>
         </p>
     </main>
@@ -18,4 +18,6 @@ const AboutPage = () => {
 
 // Step 3: Export your component
 export default AboutPage
+
+export const Head = () => <title>About Me</title>
 
