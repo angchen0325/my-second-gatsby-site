@@ -1,5 +1,6 @@
 // Step 1: Import React. This lets you use JSX inside your .js file.
 import * as React from "react"  
+import { Link } from "gatsby"
 
 /* Step 2: Define your component. Note that your
 component name should start with a capital letter. */
@@ -7,6 +8,7 @@ const IndexPage = () => {
   return (
     <main>
         <h1>Welcome to my second Gatsby site!</h1>
+        <Link to="/about">About</Link>
         <p>I'm making this to be familiar with Gatsby and React.</p>
     </main>
   )
