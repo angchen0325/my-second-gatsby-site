@@ -1,5 +1,23 @@
 .container {
-    margin: auto;
-    max-width: 1000px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  margin: auto;
+  max-width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+
+.navlink {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navlink-item {
+  margin-right: 2rem;
+}
+
+.navlink-text {
+  color:cadetblue;
+}
