@@ -21,6 +21,7 @@ const Layout = ({ pageTitle, children }) => {
   
   return (
     <div className={container}>
+      <header>{data.site.siteMetadata.title}</header>
       <nav>
         <ul className={navlink}>
           <li className={navlinkItem}><Link to="/" className={navlinkText}>Home</Link></li>
