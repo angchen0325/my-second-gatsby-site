@@ -21,3 +21,10 @@
 .navlink-text {
   color:rgb(30, 183, 167);
 }
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin-bottom: 1rem 0;
+}
