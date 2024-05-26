@@ -1,20 +1,14 @@
 import * as React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import Layout from '../components/layout'
+import Seo from '../components/seo'
 
-const Seo = ({ title }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
+const BlogPage = () => {
   return (
-    <title>{title} | {data.site.siteMetadata.title}</title>
+    <Layout pageTitle="My Blog Posts">
+      <p>My cool posts will go in here. Go ahead and add some content!</p>
+    </Layout>
   )
 }
 
-export default Seo
+export default BlogPage
+export const Head = () => <Seo title="My Blog Posts" />
